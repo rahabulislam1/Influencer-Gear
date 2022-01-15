@@ -156,16 +156,26 @@ main{
     flex-direction: column;
 }
 .top-section-left{
+    display: flex;
+    flex-direction: column;
     order: 2;
     width: 100%;
     height: 200px;
-    padding-left: 20px;
+    padding: 0 20px;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 .top-section-left h1{
     font-size: 28px;
+    text-align: center;
 }
 .title-details{
     font-size: 14px;
+}
+
+.section-2{   
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -187,4 +197,30 @@ main{
 
 @media only screen and (min-width: 688px) and (max-width: 992px){
 
-}
+    .section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-section-left{
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        width: 100%;
+        height: 200px;
+        padding: 0 20px;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .top-section-left h1{
+        text-align: center;
+    }
+    .section-2{   
+        margin-top: 150px;
+        margin-bottom: 70px;
+    }
+    .containers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     }
+    
+    }
