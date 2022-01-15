@@ -194,6 +194,12 @@ main{
 }
 
 
+.section-3{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .top-section-right-img img{
     order: 1;
     width: 200px;
